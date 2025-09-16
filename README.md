@@ -10,7 +10,7 @@ No code is included.
 
 ---
 
-## 🌐 Web Grounding
+## 🌐 Knowledge Sources
 
 By default, **Agent Navigator is web grounded** only, allowing it to be used by all Copilot users for free including Copilot Chat (unlicensed users). 
 It uses the following site to list available Copilot agents:
@@ -26,7 +26,6 @@ For production use, customers are strongly advised to **create and host their ow
 
 ## 📖 Documentation
 
-- [Setup Guide](docs/setup.md) – How to configure and publish Agent Navigator
 - [Agent Instructions](docs/instructions.md) – Copy & paste these directly into your Copilot Studio agent
 - [Usage Guide](docs/usage.md) – Practical examples once the agent is live
 - [Customization](docs/customization.md) – Adapt Agent Navigator for your organisation
