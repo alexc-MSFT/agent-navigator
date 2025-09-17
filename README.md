@@ -35,9 +35,25 @@ For production use, customers are strongly advised to **create and host their ow
 
 ## 🚀 Getting Started
 
-1. Follow the [Setup Guide](docs/setup.md).
-2. Copy the [Agent Instructions](docs/instructions.md) into your Copilot Studio agent.
-3. Publish and start exploring agents available to you and your team.
+1. Create a new agent in Copilot Studio Lite (Agent Builder).
+2. Click the 'Configure' tab and fill out the details as follows (feel free to adjust the Name/Description for your organisation):
+
+Name: Agent Navigator
+Description: Agent to recommend and help users understand which agents are available for them to use, as well as providing installation and usage instructions.
+
+3. Copy the [Agent Instructions](docs/instructions.md) and paste these into your agent.
+4. Add the website as a knowledge source - https://agentdirectory.sharepointalex.uk/index.html.
+5. Configure the following 'Suggested prompts' (feel free to adjust to your needs):
+
+Title:
+Agent recommendations
+Message: I work in HR, can you recommend me some agents to use?
+
+Title:
+Installation guidance
+Message: How do I install the Prompt Coach agent?
+
+   
 
 ---
 
