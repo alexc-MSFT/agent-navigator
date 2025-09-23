@@ -45,15 +45,12 @@ Description: Agent to recommend and help users understand which agents are avail
 4. Add the website as a knowledge source - https://agentdirectory.sharepointalex.uk/index.html.
 5. Configure the following 'Suggested prompts' (feel free to adjust to your needs):
 
-Title:
-Agent recommendations
-Message: I work in HR, can you recommend me some agents to use?
+| Title | Message |
+|----------|----------|
+| Agent recommendations   | I work in HR, can you recommend me some agents to use?  |
+| Installation guidance   | How do I install the Prompt Coach agent?   |
+| Row 3A   | Row 3B   |
 
-Title:
-Installation guidance
-Message: How do I install the Prompt Coach agent?
-
-   
 
 ---
 
