@@ -1,9 +1,16 @@
 # Agent Navigator Copilot Agent <img align="right" src="assets/agent-navigator-logo.png" alt="Agent Navigator logo" width="120">
 Agent Navigator is a Copilot Agent built in Copilot Studio Lite designed to help users discover and learn about Copilot agents.  
 
-It helps you explore:
+In it's current iteration it helps you explore:
 - **Public agents** available in the Agent Store
+- **Recommended agents** based on your job role/title
+- **Build or use** an agent based on your requirements
+
+Future iterations will bring:
 - **Organisation/Shared agents** available within your organisation
+- **Template** recommendations based on your requirements
+
+**Note - Whilst this is a Copilot Studio Lite agent, it can equally be built in Copilot Studio and rolled out across your Organization.**
 
 This repository contains **setup documentation and instructions** for building the agent in your own Copilot environment.  
 No code is included.
@@ -18,9 +25,11 @@ It uses the following site to list available Copilot agents:
 👉 [Copilot Agent Directory](https://agentdirectory.sharepointalex.uk/index.html)
 
 ⚠️ **Important Note:**  
-This is **not an official Microsoft website**. It is a community-driven project maintained in a [separate GitHub repository](https://github.com/alexc-msft/copilot-agent-directory).  
+This is **not an official Microsoft website**. It is a community-driven GitHub pages project maintained in a [separate GitHub repository](https://github.com/alexc-msft/copilot-agent-directory).  
 
-For production use, customers are strongly advised to **create and host their own version** of this site (or an equivalent internal resource - ideally web hosted so it can be used by unlicensed users) and ground Agent Navigator in that data source.
+For production use, customers are strongly advised to **create and host their own version** of this site (or an equivalent internal resource - ideally web hosted so it can be used by unlicensed users) and ground Agent Navigator in that data source. 
+
+Should a Microsoft official website containing all agents in the store become available, this agent will be updated.
 
 ---
 
@@ -47,12 +56,23 @@ Description: Agent to recommend and help users understand which agents are avail
 
 | Title | Message |
 |----------|----------|
-| Agent recommendations   | I work in HR, can you recommend me some agents to use?  |
-| Installation guidance   | How do I install the Prompt Coach agent?   |
-| Row 3A   | Row 3B   |
+| Agent Recommendations 💡 👥   | I work in HR, can you recommend me some agents to use?  |
+| Data & Insights 📈   | I need help with data analysis - what agents can I use?   |
+| Build vs. Use 🧭    | I want to build an agent for our Project Managers - does something similar already exist?   |
 
+6. Check the agent is working by selecting one of the suggested prompts or ask a question in the builder chat pane.
+7. Click 'Create'.
+8. View and use the agent in Copilot.
+9. (Optional) - Share your agent with your team/colleagues or deploy as an organization wide agent (see below).
 
 ---
+
+## 🏗️ Deploying Organization Wide
+
+Should you wish to deploy the agent across your entire organization you have a few options:
+
+- Build the agent in Copilot Studio Lite, download the manifest zip file (click the elipsis) and submit to an admin for approval in the MAC.
+- Build the agent in Copilot Studio instead and use the out of the box share functionality to submit the agent for approval.
 
 ## 🤝 Contributing
 
