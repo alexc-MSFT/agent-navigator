@@ -35,7 +35,7 @@ Should a Microsoft official website containing all agents in the store become av
 
 ## 📖 Documentation
 
-- [Agent Instructions](docs/instructions.md) – Copy & paste these directly into your Copilot Studio agent
+- [Agent Instructions](docs/Instructions.md) – Copy & paste these directly into your Copilot Studio agent
 - [Customization](docs/customization.md) – Adapt Agent Navigator for your organisation
 
 ---
