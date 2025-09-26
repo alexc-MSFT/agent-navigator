@@ -1,5 +1,5 @@
 # Agent Navigator Copilot Agent <img align="right" src="assets/agent-navigator-logo.png" alt="Agent Navigator logo" width="120">
-Agent Navigator is a Copilot Agent built in Copilot Studio Lite designed to help users discover and learn about Copilot agents.  
+Agent Navigator is a Copilot Agent built in Copilot Studio Lite designed to help users discover, learn and receive recommendations about Copilot agents.  
 
 In it's current iteration it helps you explore:
 - **Public agents** available in the Agent Store
@@ -45,10 +45,10 @@ Should a Microsoft official website containing all agents in the store become av
 ## 🚀 Getting Started
 
 1. Create a new agent in Copilot Studio Lite (Agent Builder).
-2. Click the 'Configure' tab and fill out the details as follows (feel free to adjust the Name/Description for your organisation):
+2. Click the '**Configure**' tab and fill out the details as follows (feel free to adjust the Name/Description for your organisation):
 
-Name: Agent Navigator
-Description: Agent to recommend and help users understand which agents are available for them to use, as well as providing installation and usage instructions.
+- **Name**: Agent Navigator
+- **Description**: Agent to recommend and help users understand which agents are available for them to use, as well as providing installation and usage instructions.
 
 3. Copy the [Agent Instructions](docs/instructions.md) and paste these into your agent.
 4. Add the website as a knowledge source - https://agentdirectory.sharepointalex.uk/index.html.
@@ -61,7 +61,7 @@ Description: Agent to recommend and help users understand which agents are avail
 | Build vs. Use 🧭    | I want to build an agent for our Project Managers - does something similar already exist?   |
 
 6. Check the agent is working by selecting one of the suggested prompts or ask a question in the builder chat pane.
-7. Click 'Create'.
+7. Click '**Create**'.
 8. View and use the agent in Copilot.
 9. (Optional) - Share your agent with your team/colleagues or deploy as an organization wide agent (see below).
 
@@ -77,6 +77,7 @@ Should you wish to deploy the agent across your entire organization you have a f
 ## 🤝 Contributing
 
 Contributions are welcome!  
+
 If you’d like to improve the documentation or share setup experiences, please open an issue or PR.
 
 ---
