@@ -1,18 +1,21 @@
 # Agent Navigator Copilot Agent <img align="right" src="assets/agent-navigator-logo.png" alt="Agent Navigator logo" width="120">
-Agent Navigator is a Copilot Agent built in Copilot Studio Lite designed to help users discover, learn and receive recommendations about Copilot agents.  
+Agent Navigator is a Copilot Agent built in Copilot Studio Lite designed to help users discover, learn and receive recommendations about Copilot agents. 
+
+It essentially acts like an 'Agents directory' helping users to find agents. 
 
 In it's current iteration it helps you explore:
 - **Public agents** available in the Agent Store
 - **Recommended agents** based on your job role/title
-- **Build or use** an agent based on your requirements
+- **Build or use** an agent based on the users' requirements
 
 Future iterations will bring:
 - **Organisation/Shared agents** available within your organisation
-- **Template** recommendations based on your requirements
+- **Template** recommendations based on the users' requirements
 
 **Note - Whilst this is a Copilot Studio Lite agent, it can equally be built in Copilot Studio and rolled out across your Organization.**
 
 This repository contains **setup documentation and instructions** for building the agent in your own Copilot environment.  
+
 No code is included.
 
 ---
@@ -62,6 +65,7 @@ Should a Microsoft official website containing all agents in the store become av
 7. Click '**Create**'.
 8. View and use the agent in Copilot.
 9. (Optional) - Share your agent with your team/colleagues or deploy as an organization wide agent (see below).
+10. (Optional) - Exclude specific agents in responses (see below). 
 
 ---
 
@@ -72,6 +76,12 @@ Should you wish to deploy the agent across your entire organization you have a f
 - Build the agent in Copilot Studio Lite, download the manifest zip file (click the elipsis) and submit to an admin for approval in the MAC.
 - Build the agent in Copilot Studio instead and use the out of the box share functionality to submit the agent for approval.
 
+## Excluding Agents
+
+Should you wish to exclude specific agents from being recommended or being returned in responses e.g. if an agent is blocked or not approved for use in your organization, this can be done by updating the dedicated section in the instructions. 
+
+Simply add the names of these agents to the **Agents to Exclude** section at the bottom of the instructions.
+
 ## 🤝 Contributing
 
 Contributions are welcome!  
@@ -79,6 +89,10 @@ Contributions are welcome!
 If you’d like to improve the documentation or share setup experiences, please open an issue or PR.
 
 ---
+
+## Support
+
+This solution is open-source and community provided with no active community providing support for it. This solution is maintained by both Microsoft employees and community contributors and is not a Microsoft provided solution so there is no SLA or direct support for this from Microsoft. Please report any issues by raising an issue.
 
 ## 📜 License
 
