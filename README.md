@@ -1,6 +1,6 @@
 # Agent Navigator Copilot Agent <img align="right" src="icon.png" alt="Agent Navigator logo" width="70">
 
-Agent Navigator is a Copilot Agent built in Copilot Studio Lite designed to help users discover, learn and receive recommendations about Copilot agents. 
+Agent Navigator is a **Proof of Concept Agent** built in Copilot Studio Lite designed to help users discover, learn and receive recommendations about Copilot agents. 
 
 It essentially acts like an 'Agents directory' helping users to find agents. 
 
